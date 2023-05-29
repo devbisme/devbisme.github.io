@@ -21,10 +21,9 @@ CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
 DELETE_OUTPUT_DIRECTORY = True
 
 MENUITEMS = (
-    ("Github", "https://github.com/devbisme/circuitsascode"),
-    ("Forum", "https://github.com/xesscorp/skidl/discussions"),
-    ("Blog", f"{SITEURL}/category/posts.html"),
-    ("Library", f"{SITEURL}/api/html/index.html"),
+#    ("Github", "https://github.com/devbisme/devbisme.github.io"),
+    ('About', '/pages/about.html'),
+    ("Forum", "https://github.com/devbisme/devbisme.github.io/discussions"),
     ("Home", f"{SITEURL}/"),
 )
 
